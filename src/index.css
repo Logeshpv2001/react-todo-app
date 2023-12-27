@@ -1,13 +1,86 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #d1f0c2;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #5fa52a;
+}
+
+.todo-form button {
+  background-color: #5fa52a;
+  color: white;
+}
+
+.todo-card button {
+  margin-top: 10px;
+  background-color: #5fa52a;
+  color: white;
+}
+
+.todo-card button.delete-btn {
+  background-color: #ff8c00;
+  color: white;
+}
+
+.btn-addtodo {
+  background-color: #5fa52a;
+  color: white;
+}
+
+.Todo-name {
+  margin-left: 250px;
+}
+
+.Todo-description {
+  margin-left: -150px;
+}
+
+.btn-addtodo {
+  margin-left: 108px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 45px;
+  color: #5fa52a;
+
+}
+
+
+.header-container select {
+  margin-left: 10px;
+}
+
+.status-filter {
+  margin-top: -43px;
+  margin-left: 799px;
+}
+
+h2 {
+  margin-left: 11px;
 }
